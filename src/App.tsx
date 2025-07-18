@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Main from "./routes/main/main";
+import Main from "./routes/layout/layout";
 import Categories from "./routes/categories/categories";
 import Services from "./routes/services/services";
 import GosPresident from "./routes/gos-president/gos-president";

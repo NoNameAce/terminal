@@ -39,6 +39,7 @@ export default function Services() {
             <div
               key={inx}
               className="flex justify-between items-center w-[815px] h-[101px] rounded-[100px] border-5 border-[#5EB681] px-3 pr-7 cursor-pointer group hover:bg-[#5EB681] transition duration-300"
+              onClick={() => {navigate("/queue")}}
             >
               <div className="flex items-center gap-3">
                 <div className="w-[69px] h-[69px] border-5 border-[#E6EFEA] rounded-full p-3 bg-white">

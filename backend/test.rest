@@ -1,0 +1,16 @@
+GET http://localhost:3000/data/categories
+###
+GET http://localhost:3000/data/gos
+
+###
+GET http://localhost:3000/data/services
+###
+GET http://localhost:3000/data/services/2
+###
+GET http://localhost:3000/data/queue
+###
+GET http://localhost:3000/data/windows
+###
+GET http://localhost:3000/data/operator
+###
+GET http://localhost:3000/data/applicant/legal

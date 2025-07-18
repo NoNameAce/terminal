@@ -1,0 +1,19 @@
+version: '3'
+services:
+  tj_postgres:
+    image: postgres:latest
+    container_name: tj_postgres
+    environment:
+      POSTGRES_PASSWORD: 123
+    ports:
+      - "5431:5432"
+    volumes:
+      - tj_postgres_data:/var/lib/postgresql/data
+
+volumes:
+  tj_postgres_data:
+
+  # app: 
+  #   image: my-app
+  #   ports:
+  #     - 13000:3000
